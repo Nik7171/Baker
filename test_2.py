@@ -1,7 +1,7 @@
 import openai
 
 # Установите свой API-ключ
-openai.api_key = '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'
+openai.api_key = 'API_KEY'
 
 def get_gpt3_response(prompt):
     response = openai.Completion.create(

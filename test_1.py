@@ -1,7 +1,7 @@
 import os
 from crewai import Agent, Task, Crew, Process
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "API_KEY"
 #OPENAI_API_BASE=
 # You can choose to use a local model through Ollama for example. See ./docs/how-to/llm-connections.md for more information.
 # from langchain.llms import Ollama

@@ -1,7 +1,7 @@
 import openai
 
 # Установка вашего ключа API
-openai.api_key = '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'
+openai.api_key = 'API_KEY'
 
 # Текст, для которого нужно получить продолжение
 prompt_text = "Какие суть основные принципы ООП?"

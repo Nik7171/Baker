@@ -12,7 +12,7 @@ config_list = autogen.config_list_from_json(
 )
 if not config_list:
     os.environ["MODEL"] = "gpt-4"
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "API_KEY"
     os.environ["OPENAI_BASE_URL"] = "https://api.openai.com/v1" # optional
 
     config_list = autogen.config_list_from_models(

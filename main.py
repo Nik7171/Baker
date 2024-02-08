@@ -1,7 +1,7 @@
 import os
 from CrewAI import Agent, Task, Crew, Process
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'API_KEY'
 
 translator = Agent(
     role='Translator',
